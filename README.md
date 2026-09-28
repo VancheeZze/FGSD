@@ -4,6 +4,10 @@ A folder of files that turns your AI into a growth partner for any project or go
 
 **This folder is a brain you're giving your AI.** You don't need to open, read, or understand any of these files. They're instructions for the AI, not for you. Just follow the setup steps below and start talking.
 
+**Watch the 1-minute demo:**
+
+[![FGSD demo video](https://img.youtube.com/vi/cyTCbMsLwWc/hqdefault.jpg)](https://youtu.be/cyTCbMsLwWc)
+
 Free and open source. **Star or watch this repo** to hear when v2 lands.
 
 ---
