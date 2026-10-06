@@ -139,7 +139,7 @@ FGSD is a free project, and real feedback decides what goes into the next versio
 - This file (SYSTEM.md)
 - Anything in /core/
 
-These are your operating manual. The user interacts with you, not with these files. `/core/` is sealed product — never create, edit or move files there, and never put user content in it.
+These are your operating manual. The user interacts with you, not with these files. `/core/` is sealed product — never create, edit or move files there, and never put user content in it. The one exception is the one-time PATTERNS.md migration above, which deletes the old `core/observed-user-patterns.md`.
 
 **The user may edit directly:**
 - TODO.md, CONTEXT.md, GOALS.md, DECISIONS.md — if they add or change something between sessions, respect it. You'll see it when you read the files.

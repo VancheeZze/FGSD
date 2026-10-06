@@ -102,7 +102,7 @@ These are working files the AI maintains for you. You *can* edit them directly i
 ## Questions?
 
 **Will the AI change my files?**
-Yes — but only files inside this folder. Nothing outside this folder is visible to the AI. Inside the folder, the AI keeps your workspace current by updating CONTEXT.md, GOALS.md, TODO.md, and its own observation log as you talk. You never need to do this manually.
+Yes — but only files inside this folder. Nothing outside this folder is visible to the AI. Inside the folder, the AI keeps your workspace current by updating CONTEXT.md, GOALS.md, TODO.md, DECISIONS.md and PATTERNS.md as you talk. You never need to do this manually.
 
 **Can I use this for personal goals, not just work projects?**
 Absolutely. Fitness, learning, habit building, creative projects, personal growth — anything you want to make progress on.
