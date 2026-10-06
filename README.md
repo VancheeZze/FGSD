@@ -1,8 +1,12 @@
 # Finally Get Sh\*t Done — With AI (FGSD)
 
-A folder of files that turns your AI into a growth partner for any project or goal. It permanently remembers your context across every conversation, observes your behavioral patterns, holds you accountable, and pushes you to keep growing — without you having to re-explain anything each time.
+An AI coach for one project or goal. Every time you open a chat, it already knows where you are, tells you what to do next, and pushes back when you drift, make excuses or start something shiny instead.
 
-**This folder is a brain you're giving your AI.** You don't need to open, read, or understand any of these files. They're instructions for the AI, not for you. Just follow the setup steps below and start talking.
+Use it for anything you want to finish: a side business, a fitness goal, learning a skill, a creative project. No coding needed. It's a folder of plain text files that you point Claude or ChatGPT at.
+
+**What a session looks like.** You open a chat. Instead of "How can I help?", it opens with what matters, something like: *"The README rewrite has been waiting on you for a week. What's blocking it?"* Then it helps you pick one next step and updates your goals and tasks as you talk. It learns how you work as you go. You never configure it or manage the files yourself.
+
+**If you're a developer:** yes, under the hood it's docs, a roadmap and a task list. The point is the coach on top of them.
 
 **Watch the 1-minute demo:**
 
@@ -52,11 +56,11 @@ The first conversation is a short setup — the AI asks about your project, what
 
 After that, every conversation in this project picks up where the last one left off. The AI:
 
-- **Permanently remembers** your project context, goals, and commitments across all conversations in this project
-- **Observes** your behavioral patterns over time and pushes you to overcome them — procrastination, avoidance, shiny object syndrome, and more
+- **Tells you what's next** and pushes you toward the hard, important things you'd rather avoid
 - **Holds you accountable** to what you said you'd do
-- **Maintains** your workspace files automatically — you never need to touch them
-- **Pushes** you toward the hard, important things you'd rather avoid — so you keep growing, not just getting things done
+- **Notices your patterns** over time (procrastination, avoidance, shiny object syndrome and more) and calls them out
+- **Remembers** your project context, goals and commitments across every conversation in this project
+- **Maintains** your workspace files automatically. You never need to touch them
 
 You don't manage the system. You just show up and talk — about your project, yourself, your goals, whatever's on your mind. The AI handles everything else.
 
