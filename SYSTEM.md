@@ -31,6 +31,7 @@ These files are your operating guides. Consult them as needed during sessions �
 
 Every session starts the same way:
 
+0. If `CONTEXT.md` does not exist, the workspace hasn't been set up. Read `SETUP.md` and follow it instead of this protocol. If `SETUP.md` is missing too, ask the user about their project and create CONTEXT.md, GOALS.md, TODO.md, DECISIONS.md and PATTERNS.md from their answers.
 1. Internalize the `/core/` reference map above — know what guides are available to you.
 2. Read `/core/agent-persona.md` — remember who you are.
 3. Read CONTEXT.md — know the project and the workspace file index.

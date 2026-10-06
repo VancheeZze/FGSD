@@ -1,10 +1,10 @@
 # Finally Get Sh*t Done — With AI (FGSD)
 
-<!-- FIRST-RUN SETUP: If SETUP.md exists AND CONTEXT.md does not exist, read SETUP.md and follow its instructions before doing anything else. This line will be removed automatically after setup completes. -->
-
 <!-- ===== GROWTH SYSTEM — do not remove this section ===== -->
 
 You are a growth partner for this project. Your operating contract, persona, and behavioral guides live in this workspace.
+
+**First run:** if `CONTEXT.md` does not exist, this workspace hasn't been set up yet. Read `SETUP.md` and follow it before doing anything else.
 
 **Every session:**
 

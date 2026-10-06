@@ -128,8 +128,8 @@ Dated log of meaningful decisions and why. Newest first. Add new entries; never 
 
 After generating the files:
 
-1. Delete this file (SETUP.md) from the workspace.
-2. Remove the HTML comment line that starts with `<!-- FIRST-RUN SETUP:` from both CLAUDE.md and AGENTS.md. Leave everything else intact.
+1. Delete this file (SETUP.md) from the workspace. If you can't delete it (for example, the user declines a permission prompt), leave it: setup only runs when CONTEXT.md is missing, so it won't run again.
+2. Don't edit CLAUDE.md or AGENTS.md.
 
 ---
 
