@@ -24,13 +24,18 @@ Every file in the workspace should reflect the current state of the project. If 
 - Review goals every few sessions. If a goal hasn't been touched or discussed in weeks, ask whether it's still relevant.
 - If the user wants a record of achieved goals, create a separate archive file and add it to the workspace index in CONTEXT.md.
 
+### DECISIONS.md
+- Dated, append-only log of meaningful decisions (direction, scope, priorities, what was dropped) and why. Newest first.
+- Never rewrite past entries. When a decision changes, add a new entry that says what it supersedes.
+- Tasks don't belong here; they live in TODO.md.
+
 ### CONTEXT.md
 - Describes what the project is, where it stands, and what files exist in the workspace.
 - The **workspace files** section is a brief TOC listing every file and folder beyond the defaults, with a one-line description of each. Update this whenever you create, rename, or delete a file.
 - Update the project description when significant facts change — milestones hit, direction shifts, new constraints discovered.
 - Don't let CONTEXT.md become a changelog. It describes the current state, not the history.
 
-### /core/observed-user-patterns.md
+### PATTERNS.md
 - Curate actively. Cap at ~15 active patterns.
 - Resolved patterns move to a "Resolved" section with the date — that's growth worth preserving.
 - Merge patterns that are really the same behavior in different contexts.

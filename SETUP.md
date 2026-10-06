@@ -26,7 +26,7 @@ They might say one sentence or five paragraphs. Either way, extract what you can
 
 ### Step 2: Generate files IMMEDIATELY.
 
-Before you write a single word to the user, create CONTEXT.md, GOALS.md, and TODO.md from whatever you extracted — even if it's sparse. Use what you have, leave gaps for what you don't know yet. One sentence from the user is enough to create stub files. These files will be refined continuously; they don't need to be perfect now.
+Before you write a single word to the user, create CONTEXT.md, GOALS.md, TODO.md, DECISIONS.md and PATTERNS.md from whatever you extracted — even if it's sparse. Use what you have, leave gaps for what you don't know yet. One sentence from the user is enough to create stub files. These files will be refined continuously; they don't need to be perfect now.
 
 Creating them immediately prevents setup from re-triggering if the user leaves the conversation.
 
@@ -37,7 +37,7 @@ Now reply. If their first message was detailed enough, move straight to cleanup 
 Follow-up rules:
 - Maximum 2-3 follow-up questions total across the setup conversation.
 - If they give a clear answer, don't interrogate. Update the generated files with the new info and move on.
-- After each follow-up answer, update CONTEXT.md, GOALS.md, and TODO.md with the new details.
+- After each follow-up answer, update CONTEXT.md, GOALS.md, TODO.md and DECISIONS.md with the new details.
 - This is a conversation, not an intake form.
 
 ### CONTEXT.md
@@ -48,6 +48,8 @@ Follow-up rules:
 ## System
 This workspace runs on FGSD (Finally Get Sh*t Done — With AI). Read `SYSTEM.md` before every session — it is your full operating contract. It defines who you are, how you run sessions, how you observe patterns, and how you maintain this workspace. Follow its session opening protocol before your first response.
 
+Set up: [today's date, YYYY-MM-DD]
+
 ## Project
 [What this project is. 2-4 sentences. Written in third person — describe the project, not the user.]
 
@@ -57,10 +59,12 @@ This workspace runs on FGSD (Finally Get Sh*t Done — With AI). Read `SYSTEM.md
 ## Workspace files
 Default workspace files:
 - `SYSTEM.md` — your rules, guides, and session protocol (do not edit)
-- `/core/` — AI guides and behavioral observation log (do not edit or create files here)
+- `/core/` — AI guides (do not edit or create files here)
+- `PATTERNS.md` — AI's observations of the user's behavioral patterns
 - `CONTEXT.md` — this file: project description and workspace index
 - `GOALS.md` — active targets
 - `TODO.md` — current tasks and commitments
+- `DECISIONS.md` — dated log of decisions and why
 ```
 
 ### GOALS.md
@@ -81,6 +85,41 @@ Default workspace files:
 [List 3-5 first actionable steps. Specific enough to start immediately. Use this format:]
 
 - [ ] [Specific action] — [added: YYYY-MM-DD]
+```
+
+### PATTERNS.md
+
+```markdown
+# Observed user patterns
+
+*Maintained by the AI. Patterns are logged here as they are observed across sessions. See SYSTEM.md for the recording format.*
+
+---
+
+## Active patterns
+
+*No patterns observed yet. This file populates as the AI identifies recurring behaviors across sessions.*
+
+---
+
+## Resolved patterns
+
+*Patterns that have been consistently overcome are moved here with the date resolved.*
+```
+
+### DECISIONS.md
+
+```markdown
+# Decisions
+
+Dated log of meaningful decisions and why. Newest first. Add new entries; never rewrite old ones. When a decision changes, add a new entry that says what it supersedes.
+
+---
+
+[If the user made any decisions during setup, log them. Otherwise leave this empty. Format:]
+
+## YYYY-MM-DD
+- **[Decision]** — [why]
 ```
 
 ---

@@ -48,7 +48,7 @@ Forced decision. The item either gets done, gets broken into smaller pieces, or 
 ### Level 4 — Chronic pattern
 If the same type of commitment keeps getting missed, it's not about the task — it's about the behavior. Escalate to behavioral observation.
 - "This is the [Nth] time a [type of task] has slipped. The problem isn't this task — it's how you approach [this category of work]. Let's talk about that."
-- Log to `/core/observed-user-patterns.md`.
+- Log to `PATTERNS.md`.
 
 ---
 
@@ -73,12 +73,12 @@ When the user wants to drop something:
 - Multiple items overdue? Prioritize — name the most important one, not all of them at once.
 
 ### During session
-- When a task is completed, mark it in TODO.md immediately.
+- When a task is completed, remove it from TODO.md immediately.
 - When a new commitment is made, add it immediately with a date.
 - When a commitment is explicitly renegotiated (different scope or date), update TODO.md immediately.
 
 ### Cross-session
-- Patterns of missed commitments across sessions get logged to `/core/observed-user-patterns.md`.
+- Patterns of missed commitments across sessions get logged to `PATTERNS.md`.
 - Patterns of consistent follow-through get reinforced per `/core/habit-reinforcement-guide.md`.
 
 ---

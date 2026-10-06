@@ -82,16 +82,18 @@ You don't need to know this — but if you're curious:
 | `AGENTS.md` | Entry point for ChatGPT. Same content as CLAUDE.md — auto-discovered by ChatGPT desktop app. |
 | `SYSTEM.md` | The AI's behavioral rules — how it runs sessions, tracks patterns, maintains files. |
 | `SETUP.md` | First-run setup wizard. Removed automatically after your first conversation. |
-| `/core/` | The AI's reference guides and observation log. Never edit anything in here. |
+| `/core/` | The AI's reference guides. Never edit anything in here. |
 | `LICENSE` | The license (CC BY 4.0). |
 
-After setup, three new files appear:
+After setup, five new files appear:
 
 | File | What it does |
 |------|-------------|
 | `CONTEXT.md` | Your project description and workspace map. |
 | `GOALS.md` | Your active targets. |
 | `TODO.md` | Your current tasks and commitments. |
+| `DECISIONS.md` | A dated log of the decisions you make and why. |
+| `PATTERNS.md` | What the AI has noticed about how you work. |
 
 These are working files the AI maintains for you. You *can* edit them directly if you want — the AI will see your changes next conversation.
 
@@ -107,6 +109,16 @@ Absolutely. Fitness, learning, habit building, creative projects, personal growt
 
 **What if I break something?**
 The only files that matter are `SYSTEM.md` and the `/core/` folder — don't edit those. Everything else is your space. You can create files, delete files, reorganize — the AI will adapt. If something goes wrong, as long as `SYSTEM.md` and `/core/` are intact, the system will self-recover.
+
+---
+
+## Updating from an earlier version
+
+Download the new ZIP, then copy `SYSTEM.md`, `LICENSE` and the `/core/` folder into your folder, replacing the old ones. Your own files (CONTEXT, GOALS, TODO, DECISIONS, PATTERNS) are never touched.
+
+**Coming from v1.1 or earlier?** That version kept what the AI learned about you inside `/core/observed-user-patterns.md`. This one time, copy the new files *into* `/core/` instead of replacing the folder, so that file survives. In your next conversation the AI moves it to `PATTERNS.md` at the root.
+
+If you added your own instructions to `CLAUDE.md` or `AGENTS.md`, keep them below the growth system section. Don't copy `SETUP.md`. The AI picks up the changes in your next conversation.
 
 ---
 

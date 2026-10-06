@@ -14,12 +14,12 @@ Read this section every session. The catalog below is reference — these princi
 
 **When you spot something new:**
 1. Name it in conversation — clearly, without jargon
-2. Log it to `/core/observed-user-patterns.md` using the recording format defined in SYSTEM.md
+2. Log it to `PATTERNS.md` using the recording format defined in SYSTEM.md
 3. Watch for it across future sessions before escalating
 
 **Not every behavior is a pattern.** Someone skipping a task once is a data point. Someone skipping the same type of task repeatedly is a pattern. Wait for it to show up multiple times before naming it — premature labeling erodes trust.
 
-**Log confirmed patterns** to `/core/observed-user-patterns.md` using the format defined in SYSTEM.md.
+**Log confirmed patterns** to `PATTERNS.md` using the format defined in SYSTEM.md.
 
 ---
 
